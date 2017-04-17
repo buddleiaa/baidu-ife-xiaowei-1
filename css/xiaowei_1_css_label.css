@@ -1,0 +1,133 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family:'Arial','Heiti SC','Microsoft Yahei',simsun,sans-serif;
+	background-color: #ccc;
+	margin:0;
+}
+
+/*设置容器使得页面中元素保证在一定的范围之内
+#container{
+	width: 80%;
+}
+*/
+
+/* 
+.page{	
+	background:#ccc;
+	}
+/* 将网页中每个元素的边界属性margin,填充属性padding，边框属性border设置为0*/
+.reset{border:none;margin:0;padding:0;background:none;-webkit-box-shadow:none;box-shadow:none;}
+.Nav-bg{
+	height:60px;
+	}
+nav{
+	display:block; /*使元素具有块状元素特点*/
+	position:fixed;
+	background: #1b1b1b;
+	top:0; 
+    width: 100%; 
+    color: #999; 
+	z-index:200;
+	}
+.logo{
+	margin-left:5px;
+    height:60px;
+	}
+
+.navi{
+	float:right;
+	display:inline-block;
+	}
+
+.navi li{
+	width:120px;
+	display:inline-block;
+	margin:2px 5px;
+	}
+	
+
+.item a{color:#ff3; text-decoration:none;}
+.item a:hover{ font-weight:bold; color:#fff}
+	
+.article{
+	margin:20px;
+	padding:20px;
+	background:#fff; 
+	border:#999 solid;
+	border-width:1px 2px 3px 0px;
+	}
+	
+.article h1{
+	font:24px bold;
+	}
+.articleInfo{
+	 font-size: 10px;
+	}
+
+.articleInfo .address,.time{
+	 display:inline;
+	 margin-right: 5px;
+	}
+
+.tableBg{
+	width:100%;
+	}
+.tableBg caption{
+	padding:3px 0 3px 0;
+	background-color: #ff3;
+	color:#fff;
+	}
+.tableBg td{
+	border-left:2px solid #ff3;
+	}
+.tableBg tfoot{
+	 text-align:center;
+	}
+
+.tableRightAlign
+{
+	width:50%;
+	text-align:right;
+	vertical-align:top;
+	}
+.tableLeftAlign
+{
+	 text-align:left;
+	}
+
+.direction{
+	font-size: 10px;
+	color:#666;
+	}
+#label-radio lable{
+	 background:url('img/radio.gif') no-repeat left top;
+
+	}
+.checked{
+	 background:url('img/radio.gif') no-repeat left bottom;
+
+	}
+.button{
+	border:0;
+	height:3em;
+	width:100%;
+	color:#FFF;
+	background:#FF3;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	}
+footer{ 
+background: #1b1b1b; 
+width: 100%; 
+color: #999; 
+padding-left: 20px; 
+height: 80px;}
+footer > p{
+	padding-top: 20px;
+	text-align:center;
+	 }
+/*footer a{ margin-right: 20px; color: #999;}
+footer a:hover{color: #50afe3;}*/
